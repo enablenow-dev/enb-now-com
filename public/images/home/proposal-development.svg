@@ -1,0 +1,12 @@
+<svg width="96" height="96" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xml:space="preserve" overflow="hidden" fill="#007BA8" >
+    <g>
+        <path d="M73 82 23 82 23 14 73 14 73 82ZM79 8 17 8 17 88 79 88 79 8Z" />
+        <path d="M29 66 47 66 47 70 29 70Z" />
+        <path d="M29 22 67 22 67 26 29 26Z" />
+        <path d="M29 30 67 30 67 34 29 34Z" />
+        <path d="M29 38 67 38 67 42 29 42Z" />
+        <path d="M48 46 67 46 67 50 48 50Z" />
+        <path d="M63.9 75 60 71.1 56.1 75 53 71.9 56.9 68 53 64.1 56.1 61 60 64.9 63.9 61 67 64.1 63.1 68 67 71.9Z" />
+    </g>
+</svg>

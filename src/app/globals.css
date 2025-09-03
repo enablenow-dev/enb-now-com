@@ -1,0 +1,174 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ ::-webkit-scrollbar{
+  width: 5px;
+ }
+ ::-webkit-scrollbar-thumb{
+  background-color: #007ba8;
+  border-radius: 5px;
+ }
+ ::-webkit-scrollbar-thumb:hover{
+  background-color: #007ba8;
+ }
+html {
+  font-family: var(--font-figtree);
+}
+body {
+  color: #4C4C4C;
+  font-size: 16px;
+}
+p {
+  line-height: 26px;
+}
+h1, h2, h3, h4, h5, h6, a, li {
+  font-family: var(--font-outfit);
+}
+.blue-bg {
+  background-color:#006fb1
+}
+.gradient-bg {
+  background: linear-gradient(180deg, #FFF 0%, #0272b3 0.01%, rgba(255, 255, 255, 0.00) 100%);
+}
+.gradient-bg-two {
+  background: linear-gradient(180deg, #FFF 0%, rgba(255, 150, 150, 0.27) 0%, rgba(255, 150, 150, 0.27) 42.19%, rgba(255, 255, 255, 0.00) 100%);
+}
+.gradient-bg-three {
+  background: linear-gradient(180deg, #FFF 0%, rgba(255, 150, 150, 0.27) 0%, rgba(255, 150, 150, 0.27) 0.01%, rgba(255, 255, 255, 0.00) 100%);
+}
+.before-gradient-bg::before {
+  background: linear-gradient(180deg, #FFF 0%, rgba(255, 150, 150, 0.27) 0%, rgba(255, 150, 150, 0.27) 42.19%, rgba(255, 255, 255, 0.00) 100%);
+}
+.custom-black-bg-opacity-85 {
+  background-color: rgba(0, 0, 0, 0.85);
+}
+/* testimonial-slider */
+.testimonial-slider .swiper-button-next {
+  position: absolute;
+  right: 0;
+  bottom: 10px;
+  top: auto;
+  color: #4C4C4C;
+}
+.testimonial-slider .swiper-button-next::after {
+  font-size: 26px;
+}
+.testimonial-slider .swiper-button-prev {
+  position: absolute;
+  right: 50px;
+  left: auto;
+  bottom: 10px;
+  top: auto;
+  color: #4C4C4C;
+}
+.testimonial-slider .swiper-button-prev::after {
+  font-size: 26px;
+}
+.testimonial-slider .swiper-button-prev:hover, .testimonial-slider .swiper-button-next:hover {
+  color: #EF4335;
+}
+/* .testimonial-slider-two */
+.testimonial-slider-two .swiper-pagination {
+  position: initial;
+  margin-top: 20px;
+}
+.testimonial-slider-two .swiper-pagination .swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+}
+.testimonial-slider-two .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background-color: #EF4335;
+}
+
+/* Testimonial slider three */
+.testimonial-slider-three .swiper-button-next {
+  position: absolute;
+  right: 0;
+  bottom: 50px;
+  top: auto;
+  color: #4C4C4C;
+}
+.testimonial-slider-three .swiper-button-next::after {
+  font-size: 26px;
+}
+.testimonial-slider-three .swiper-button-prev {
+  position: absolute;
+  right: 50px;
+  left: auto;
+  bottom: 50px;
+  top: auto;
+  color: #4C4C4C;
+}
+.testimonial-slider-three .swiper-button-prev::after {
+  font-size: 26px;
+}
+.testimonial-slider-three .swiper-button-prev:hover, .testimonial-slider-three .swiper-button-next:hover {
+  color: #EF4335;
+}
+
+/* RTL Style */
+[dir="rtl"] .testimonial-slider .swiper-button-next {
+  right: auto; 
+  left: 0; 
+}
+[dir="rtl"] .testimonial-slider .swiper-button-prev {
+  right: auto;
+  left: 30px;
+}
+
+[dir="rtl"] .testimonial-slider-three .swiper-button-next {
+  right: auto;
+  left: 0;
+}
+[dir="rtl"] .testimonial-slider-three .swiper-button-prev {
+  right: auto;
+  left: 30px;
+}
+/* Styling for Loader*/
+.loader {
+  border: 8px solid #f3f3f3; /* Light grey */
+  border-top: 8px solid #086fb8; /* Blue */
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  animation: spin 2s linear infinite;
+  }
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Styling for SweetAlert */
+.btnstyle {
+  background-color: #007ba8;
+}
+
+
+
+@media screen and (max-width: 500px) {
+  .testimonial-slider .swiper-button-prev {
+    right: 30px;
+  }
+  .testimonial-slider-three .swiper-button-prev {
+    right: 30px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .testimonial-slider-three .swiper-button-next, .testimonial-slider-three .swiper-button-prev {
+    bottom: 0;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .testimonial-slider-two .swiper-pagination {
+    margin-left: -105px;
+  }
+}
+/* End testimonial-slider */
+
+
+@media screen and (min-width: 1500px) {
+  .search-form {
+    width: 340px !important;
+  }
+}

@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://enablenow.com
+
+# Sitemaps
+Sitemap: https://enablenow.com/sitemap.xml
