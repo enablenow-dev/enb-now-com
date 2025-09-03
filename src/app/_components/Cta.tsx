@@ -31,12 +31,7 @@ const Cta = () => {
               </p>
 
               <h4 className="text-black font-semibold text-[18px] lg:text-[22px] mb-[30px]">
-                <a
-                  href="mailto:contact@enablenow.co.in"
-                  className="underline hover:no-underline text-[#007BA8] hover:text-[#007BA8]"
-                >
-                  contact@enablenow.com
-                </a>
+              
               </h4>
 
               <Link

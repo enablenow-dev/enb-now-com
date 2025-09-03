@@ -35,30 +35,7 @@ const ContactInfo = () => {
           </div>
   </div>*/}
 
-        <div className="border bg-[#F2F2F8] rounded-[20px] px-[30px] py-[35px]">
-          <h3 className="text-[18px] md:text-[22px] font-semibold text-black mb-[20px] leading-none">
-            Email Us
-          </h3>
-          <div className="flex items-center text-black space-x-[15px] rtl:space-x-reverse">
-            <div className="shrink-0 bg-blue-200 text-[#007BA8] w-[48px] h-[48px] leading-[50px] text-[25px] inline-block text-center rounded-full">
-              <i className="bx bxs-envelope"></i>
-            </div>
-            <div>
-              <a
-                href="mailto:contact@enablenow.co.in"
-                className="block hover:text-primary hover:text-lg"
-              >
-                contact@enablenow.com
-              </a>
-              {/* <a
-                href="mailto:info@adla.com"
-                className="block hover:text-primary"
-              >
-                info@adla.com
-              </a> */}
-            </div>
-          </div>
-        </div>
+     
       </div>
     </>
   );
