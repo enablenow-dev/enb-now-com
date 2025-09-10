@@ -312,7 +312,7 @@ const NavbarStyleTwo: React.FC = () => {
               </li>
 
               {/* Resources */}
-              <li className="relative group">
+              {/* <li className="relative group">
                 <Link
                   href="/announcements/"
                   className={`block px-4 py-3 xl:py-8 text-[15px] font-semibold uppercase tracking-wide transition-all duration-300 hover:text-[#007ba8] relative ${
@@ -322,7 +322,7 @@ const NavbarStyleTwo: React.FC = () => {
                   Resources
                   <span className={`absolute bottom-0 left-1/2 w-0 h-0.5 bg-[#007ba8] transition-all duration-300 transform -translate-x-1/2 group-hover:w-full ${currentRoute === "/announcements/" ? "w-full" : ""}`}></span>
                 </Link>
-              </li>
+              </li> */}
             </ul>
           </div>
         </nav>

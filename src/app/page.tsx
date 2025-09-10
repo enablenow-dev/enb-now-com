@@ -14,9 +14,9 @@ export default function Home() {
           <OurProcess />
         </div>
       </div>
-      <div className=" mb-[50px]">
+      {/* <div className=" mb-[50px]">
         <AboutContent />
-      </div>
+      </div> */}
       <div className="bg-[#007ba8] mb-[50px]">
         <Cta />
       </div>

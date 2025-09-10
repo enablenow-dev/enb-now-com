@@ -15,7 +15,46 @@ const ServicesCard = () => {
 
         {/* Services Cards */}
         <div className="grid gap-[25px] grid-cols-1 md:grid-cols-3">
-          {/* Card 1 */}
+
+           {/* Card 1 - ServiceNow */}
+          <div
+            className="group bg-white rounded-[20px] py-[50px] px-[40px] hover:bg-[#007BA8] hover:text-white transition duration-400 ease-in-out shadow-md border border-[#FAF4F4]"
+            data-aos="fade-up"
+            data-aos-delay="100"
+            data-aos-duration="500"
+            data-aos-once="true"
+          >
+            <div className="bg-[#F2F2F8] w-[70px] h-[70px] leading-[70px] rounded-full text-center mb-[15px]">
+              <Image
+                src={"/images/home/proposal-development.svg"}
+                alt={"ServiceNow"}
+                width={"48"}
+                height={"48"}
+                className="inline-block"
+              />
+            </div>
+
+            <h3 className="text-[20px] md:text-[22px] font-semibold mb-[10px] group-hover:text-white text-black">
+              ServiceNow Solutions
+            </h3>
+            <p className="text-black group-hover:text-white">
+              Implement and optimize ServiceNow for SPM, ITSM, and more—driving
+              automation, visibility, and measurable business outcomes.
+            </p>
+
+            <Link
+              href="/services/Servicenow"
+              className="text-[14px] mt-[25px] font-medium inline-block uppercase transition duration-400 ease-in-out text-black group-hover:text-white"
+            >
+              read more{" "}
+              <ArrowRight2
+                className="inline-block relative -top-[2px]"
+                size={20}
+                color="currentColor"
+              />
+            </Link>
+          </div>
+          {/* Card 2 */}
           <div
             className="group bg-white rounded-[20px] py-[50px] px-[40px] hover:bg-[#007BA8] hover:text-white transition duration-400 ease-in-out shadow-md border border-[#FAF4F4]"
             data-aos="fade-up"
@@ -54,44 +93,7 @@ const ServicesCard = () => {
             </Link>
           </div>
 
-          {/* Card 2 - ServiceNow */}
-          <div
-            className="group bg-white rounded-[20px] py-[50px] px-[40px] hover:bg-[#007BA8] hover:text-white transition duration-400 ease-in-out shadow-md border border-[#FAF4F4]"
-            data-aos="fade-up"
-            data-aos-delay="100"
-            data-aos-duration="500"
-            data-aos-once="true"
-          >
-            <div className="bg-[#F2F2F8] w-[70px] h-[70px] leading-[70px] rounded-full text-center mb-[15px]">
-              <Image
-                src={"/images/home/proposal-development.svg"}
-                alt={"ServiceNow"}
-                width={"48"}
-                height={"48"}
-                className="inline-block"
-              />
-            </div>
-
-            <h3 className="text-[20px] md:text-[22px] font-semibold mb-[10px] group-hover:text-white text-black">
-              ServiceNow Solutions
-            </h3>
-            <p className="text-black group-hover:text-white">
-              Implement and optimize ServiceNow for SPM, ITSM, and more—driving
-              automation, visibility, and measurable business outcomes.
-            </p>
-
-            <Link
-              href="/services/Servicenow"
-              className="text-[14px] mt-[25px] font-medium inline-block uppercase transition duration-400 ease-in-out text-black group-hover:text-white"
-            >
-              read more{" "}
-              <ArrowRight2
-                className="inline-block relative -top-[2px]"
-                size={20}
-                color="currentColor"
-              />
-            </Link>
-          </div>
+         
 
           {/* Card 3 */}
           <div
