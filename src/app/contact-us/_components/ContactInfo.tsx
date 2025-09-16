@@ -16,7 +16,7 @@ const ContactInfo = () => {
       <strong>Headquarters:</strong> <br />
       30 N Gould Street <br />
       Suite R <br />
-      Sheridan, TX 82801 <br /> <br />
+      Sheridan, WY 82801 <br /> <br />
       <strong>Regional Office:</strong> <br />
       555 Republic Drive <br />
       Suite 450 <br />
